@@ -1,0 +1,16 @@
+.gridApp {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E5E3DC;
+}

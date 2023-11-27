@@ -1,0 +1,17 @@
+.menuMark {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: lightgrey;
+    border-radius: 25px;
+    margin-bottom: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.menuMark:hover {
+    background-color: gray;
+}

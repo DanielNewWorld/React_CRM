@@ -1,0 +1,49 @@
+.footer {
+  grid-area: footer;
+  background-color: white;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.gridFooter {
+  font-size: 20px;
+  font-weight: bold;
+
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+
+  grid-template-areas:
+    "dateCopiright nameFirma emailFirma telephoneFirma";
+
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0px;
+}
+
+.dateCopiright {
+  grid-area: dateCopiright;
+}
+
+.nameFirma {
+  grid-area: nameFirma;
+}
+
+.emailFirma {
+  grid-area: emailFirma;
+}
+
+.telephoneFirma {
+  grid-area: telephoneFirma;
+}
+
+a {
+  color:#000;
+}

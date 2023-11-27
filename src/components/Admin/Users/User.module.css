@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    gap: 10px;
+
+    border: 1px solid #ccc;
+    padding: 5px;
+    /*margin-bottom: 10px;*/
+}
+
+.imgItem {
+    width: 20px;
+    margin-bottom: 10px;
+  }
+
+.short {
+    width: 80px;
+}
+
+.long {
+    width: 250px;
+    padding: 5px;
+    text-align: center;
+}
+
+.containerTable {
+    display: flex;
+    gap: 10px;
+    background-color: #448AFF;
+}
+
+.containerTable > div {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.containerMenu {
+    display: flex;
+    gap: 10px;
+    /*background-color: cadetblue;*/
+}
+
+.menuMark {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    background-color: lightgrey;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.menuMark:hover {
+    background-color: gray;
+}
